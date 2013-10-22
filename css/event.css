@@ -1,0 +1,96 @@
+@font-face
+{
+font-family: coda;
+src: url('../fonts/Coda/Coda-Regular.ttf');
+     
+}
+#event_complete{
+height: 100%;
+width: 100%;
+background-color: transparent;
+display: block;
+}
+
+#event_header{
+display: inline-block;
+position: relative;
+margin: 10px auto;
+left: 10%;
+top: 100px;
+font-family: 'Coda', cursive;
+}
+
+#event_name{
+float: left;
+font-family: 'Coda', cursive;
+}
+
+#day1_link{
+color: black;
+font-size: 30px;
+text-decoration: none;
+float: left;
+padding-right: 5px;
+margin-left: 430px;
+margin-right: 10px;
+border-right: 1px solid black;
+cursor: pointer;
+}
+
+#day2_link{
+	color: white;
+font-size: 30px;
+text-decoration: none;
+float: left;
+cursor: pointer;
+
+}
+
+#event_day1{
+height: 70%;
+width: 100%;
+background-color: transparent;
+position: relative;
+top: 15%;
+visibility: hidden;
+}
+
+#event_day2{
+height: 70%;
+width: 100%;
+background-color: transparent;
+position: relative;
+top: -55%;
+visibility: hidden;
+}
+
+#tech_event1{
+float: left;
+width: 50%;
+height: 100%;
+background: transparent;
+overflow-y: auto;
+}
+
+#nontech_event1{
+float: left;
+width: 50%;
+height: 100%;
+background: transparent;
+overflow-y: auto;
+}
+
+#tech_event2{
+float: left;
+width: 50%;
+height: 100%;
+background: white;
+}
+#nontech_event2{
+float: left;
+width: 50%;
+height: 100%;
+background: blue;
+}
+
+/*********************************************/

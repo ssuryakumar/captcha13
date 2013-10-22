@@ -1,0 +1,185 @@
+/**************************FIRST ANIMATION***********************************/
+@keyframes appear
+{
+0%{opacity: 0;
+	top: -10%;
+	left: 10%;
+	/*-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);*/
+	
+	}
+100%{opacity: 10;
+		
+		top: 20%;
+		left: 10%;
+	}
+}
+@-webkit-keyframes appear
+{
+0%{opacity: 0;
+	
+	left: -30%;
+	/*-webkit-transform: rotate(90deg);*/
+	
+	}
+100%{opacity: 10;
+		
+		
+		left: 10%;
+	}
+}
+
+@-ms-keyframes appear
+{
+0%{opacity: 0;
+	top: -10%;
+	left: 10%;
+	-webkit-transform: rotate(90deg);
+	
+	}
+100%{opacity: 10;
+		
+		top: 20%;
+		left: 10%;
+	}
+}
+
+
+/**************************SECOND ANIMATION***********************************/
+@keyframes appear2
+{
+0%{opacity: 0;
+	bottom: -10%;
+	left: 10%;
+	/*-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);*/
+	
+	}
+100%{opacity: 10;
+		
+		top: 4%;
+		left: 10%;
+	}
+}
+@-webkit-keyframes appear2
+{
+0%{opacity: 0;
+	bottom: -10%;
+	left: 10%;
+	/*-webkit-transform: rotate(90deg);*/
+	
+	}
+100%{opacity: 10;
+		
+		top: 14%;
+		left: 10%;
+	}
+}
+
+@-ms-keyframes appear2
+{
+0%{opacity: 0;
+	bottom: -10%;
+	left: 10%;
+	-webkit-transform: rotate(90deg);
+	
+	}
+100%{opacity: 10;
+		
+		top: 4%;
+		left: 10%;
+	}
+}
+
+
+/**************************THIRD ANIMATION***********************************/
+@keyframes appear3
+{
+0%{opacity: 0;
+	top: -10%;
+	left: 10%;
+	/*-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);*/
+	
+	}
+100%{opacity: 10;
+		
+		top: 4%;
+		left: 10%;
+	}
+}
+@-webkit-keyframes appear3
+{
+0%{opacity: 0;
+	top: -10%;
+	left: 10%;
+	/*-webkit-transform: rotate(90deg);*/
+	
+	}
+100%{opacity: 10;
+		
+		top: 14%;
+		left: 10%;
+	}
+}
+
+@-ms-keyframes appear3
+{
+0%{opacity: 0;
+	top: -10%;
+	left: 10%;
+	-webkit-transform: rotate(90deg);
+	
+	}
+100%{opacity: 10;
+		
+		top: 4%;
+		left: 10%;
+	}
+}
+
+
+/**************************FOURTH ANIMATION***********************************/
+@keyframes appear4
+{
+0%{opacity: 0;
+	top: -10%;
+	left: 10%;
+	/*-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);*/
+	
+	}
+100%{opacity: 10;
+		
+		top: 4%;
+		left: 10%;
+	}
+}
+@-webkit-keyframes appear4
+{
+0%{opacity: 0;
+	top: -10%;
+	left: 10%;
+	/*-webkit-transform: rotate(90deg);*/
+	
+	}
+100%{opacity: 10;
+		
+		top: 14%;
+		left: 10%;
+	}
+}
+
+@-ms-keyframes appear4
+{
+0%{opacity: 0;
+	top: -10%;
+	left: 10%;
+	-webkit-transform: rotate(90deg);
+	
+	}
+100%{opacity: 10;
+		top: 4%;
+		left: 10%;
+	}
+}

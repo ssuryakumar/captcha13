@@ -1,0 +1,189 @@
+@font-face
+{
+font-family: coda;
+src: url('../fonts/Coda/Coda-Regular.ttf');
+     
+}
+.events_group{
+visibility: hidden;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 22000;
+}
+/*
+.advertrix,.adzap,.balloon_games,.bite_the_bun,.block_and_tackle,.businesstrivial,.coding_and_debugging,.crack_and_jack,
+.dumb_c,.fix_it,.gaming,.googledoodle,.hangingquiz,.master_the_minute,.moch_interview,.online_photography,.paper_dressing,
+.paper_presentation,.photoshop,.queryquest,.shipwreck,.shortfilm,.spell_b,.splash_fundas,.tongue_twister,.treasurehunt,.waterballoon,
+.webdesign,.who_is_this{
+height:90%;
+width:90%;
+position: fixed;
+margin-left: 5%;
+margin-top: 2%;
+background:rgba(0,0,0,0.9);
+z-index: 20000;
+border: 3px solid white;
+border-radius: 10px;
+box-shadow: 0px 0px 20px white;
+}
+*/
+#popup{
+height:90%;
+width:90%;
+position: fixed;
+margin-left: 5%;
+margin-top: 2%;
+background:rgba(0,0,0,0.95);
+z-index: 20000;
+border: 3px solid white;
+display: inline-block;
+border-radius: 10px;
+box-shadow: 0px 0px 20px white;
+animation: popup 1s;
+-webkit-animation: popup 0.5s;
+-moz-animation: popup 0.5s;
+-o-animation:popup 0.5s;
+
+overflow-y: hidden;
+overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'coda';
+}
+
+#event_pop_title{
+color: white;
+font-size: 40px;
+ float: left;
+ margin-left: 10px;
+ font-family: "coda" cursive;
+}
+
+
+#event_content{
+display: inline-block;
+height: 100%;
+width: 100%;
+padding: 10px;
+overflow-y: auto;
+}
+
+#event_content{
+color: white;
+
+}
+#left_event_box{
+width: 50%;
+height: 100%;
+float: left;
+color: white;
+display: block;
+
+background-color: transparent;
+}
+#left_event_box h3{
+font-size: 25px;
+font-family: 'coda' cursive;
+color: #0033ff;
+}
+#right_event_box h3{
+font-size: 25px;
+font-family: 'coda';
+color: #0033ff;
+}
+
+#left_event_box p{
+font-size: 20px;
+font-family: 'coda' cursive;
+}
+#events_images{
+height: 200px;
+width: 550px;
+margin-left: 10px;
+box-shadow: 0px 0px 30px white;
+margin-bottom: 20px;
+}
+ul,li{
+	font-family: 'coda' cursive;
+}
+#right_event_box{
+width: 40%;
+height: 70%;
+margin-left: 5%;
+float: left;
+font-family: 'coda';
+overflow-y: auto;
+background-color: transparent;
+}
+
+
+/*ANIMATION EFFECTS FOR POPUP*/
+
+@-keyframes popup{
+0%{
+	opacity: 0;
+	height: 5%;
+	width: 5%;
+	left: 50%;
+	top: 50%;
+	
+}
+100%{
+	height:90%;
+width:90%;
+opacity: 1;
+}
+
+}
+
+@-webkit-keyframes popup{
+0%{
+	opacity: 0;
+	height: 5%;
+	width: 5%;
+	left: 50%;
+	top: 50%;
+	
+}
+100%{
+	height:90%;
+width:90%;
+opacity: 1;
+}
+
+}
+
+@-ms-keyframes popup{
+0%{
+	opacity: 0;
+	height: 5%;
+	width: 5%;
+	left: 50%;
+	top: 50%;
+	
+}
+100%{
+	height:90%;
+width:90%;
+opacity: 1;
+}
+
+}
+
+@-moz-keyframes popup{
+0%{
+	opacity: 0;
+	height: 5%;
+	width: 5%;
+	left: 50%;
+	top: 50%;
+	
+}
+100%{
+	height:90%;
+width:90%;
+opacity: 1;
+}
+
+}

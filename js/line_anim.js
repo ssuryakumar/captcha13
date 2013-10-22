@@ -1,0 +1,46 @@
+/*first menu animation*/
+$('#abt_coll').hover(function () {
+	$('#effect_top').css('left','0').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+	$('#effect_bottom').css('right','0').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+
+});
+
+$('#abt_coll').mouseout(function () {
+	$('#effect_top').css('left','100px').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+	$('#effect_bottom').css('right','100px').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+});
+
+/*second menu animation*/
+$('#abt_acse').hover(function () {
+	$('#effect_top2').css('left','0').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+	$('#effect_bottom2').css('right','0').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+
+});
+
+$('#abt_acse').mouseout(function () {
+	$('#effect_top2').css('left','100px').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+	$('#effect_bottom2').css('right','100px').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+});
+
+/*third menu animation*/
+$('#abt_captcha').hover(function () {
+	$('#effect_top3').css('left','0').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+	$('#effect_bottom3').css('right','0').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+
+});
+
+$('#abt_captcha').mouseout(function () {
+	$('#effect_top3').css('left','100px').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+	$('#effect_bottom3').css('right','100px').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+});
+/*fourth menu animation*/
+$('#sponsors').hover(function () {
+	$('#effect_top4').css('left','0').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+	$('#effect_bottom4').css('right','0').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+
+});
+
+$('#sponsors').mouseout(function () {
+	$('#effect_top4').css('left','100px').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+	$('#effect_bottom4').css('right','100px').css('-webkit-transition-duration','0.5s').css('-moz-transition-duration','0.5s').css('-o-transition-duration','0.5s');
+});

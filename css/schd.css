@@ -1,0 +1,327 @@
+@font-face
+{
+font-family: coda;
+src: url('../fonts/Coda/Coda-Regular.ttf');
+     
+}
+h1{
+font-family: 'coda';
+}
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    
+  
+  
+}
+body{
+   
+}
+header{
+          
+}
+#l1,#l2,#l3,#l4,#l5,#l6,#l21,#l22,#l23,#l24,#l25{
+   
+    border-radius:0px;
+    position: relative;
+    left: 355px;
+    top:10px;
+    
+    
+    
+}
+        #l1,#l21{
+            border: 1px solid rgb(177,196,130);
+            background-color: rgb(177,196,130);
+             width: 20px;
+            height: 200px;
+            opacity: 1;
+            
+        }
+        #L1,#L21{
+            visibility: visible;
+        }
+        #i1,#i3,#i5,#i21,#i23,#i25{
+            position: relative;
+            top: -90px;
+            left: 115px;
+        }
+        #i2,#i4,#i22,#i24{
+            position: relative;
+            top: -90px;
+            left: -145px;
+        }
+        
+        #c1,#c21{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 1px solid rgb(177,196,130);
+            border-radius:50px;
+            background-color: rgb(177,196,130);
+            left:90px;
+            top: 35px;
+            
+        }
+        #c3,#c23{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 1px solid rgb(91,79,53);
+            border-radius:50px;
+            background-color: rgb(91,79,53);
+            left:90px;
+            top: 35px;
+           
+            
+        }
+        #s25{
+            top: 42px;
+        }
+        #c23{
+           background-color: rgb(209,101,47);
+           border: 1px solid rgb(209,101,47);
+        }
+        #c5,#c25{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 1px solid skyblue;
+            border-radius:50px;
+            background-color: skyblue;
+            left:90px;
+            top: 35px;
+        }
+        
+       /* #c3:hover{
+            
+             -webkit-transform: scale(2); 
+             
+             background-color: rgb(91,79,53);
+             /*background: url(imag.png) top yellow;
+             background-repeat: no-repeat;
+             background-position: 50% 50%;
+             background-size: 50px 50px;
+             vertical-align: text-bottom;*/
+             
+       
+       /* #c5:hover{
+            -webkit-transform: scale(2); 
+             
+             background-color: skyblue;
+        }
+        #c2:hover{
+             -webkit-transform: scale(2); 
+             background-color: rgb(209,101,47);
+        }#c4:hover{
+             -webkit-transform: scale(2); 
+              background-color: orange;
+        }
+        #c6:hover{
+            -webkit-transform: scale(2); 
+             background-color: orange;
+        }*/
+        #c2,#c22{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 1px solid rgb(209,101,47);
+            border-radius:50px;
+            background-color: rgb(209,101,47);
+            left:-170px;
+            top: 35px;
+        }
+        #c22
+        {
+            border: 1px solid rgb(91,79,53);
+            background-color: rgb(91,79,53);
+        }#c4,#c24{ 
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 1px solid orange;
+            border-radius:50px;
+            background-color: orange;
+            left:-170px;
+            top: 35px;
+            
+        }
+        #c6,#c26{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 1px solid orange;
+            border-radius:50px;
+            background-color: orange;
+            left:-170px;
+            top: 35px;
+                    
+     }
+        
+        #t1,#t3,#t5,#t21,#t23,#t25{
+            position: relative;
+            width:0px;
+            height:0px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 10px solid skyblue;
+            left:20px;
+            top: 100px;
+            
+        }
+        #t2,#t4,#t6,#t22,#t24,#t26{
+            position: relative;
+            width:0px;
+            height:0px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-right:  10px solid orange;
+            left:-11px;
+            top: 100px
+        }
+        #s2{
+            top:20px;
+        }
+        #s22
+        {
+            top: 40px;
+        }
+        #s23{
+            font-size: 10px;
+            top:32px;
+        }
+  
+        #t1,#t21{
+           
+            border-left: 10px solid rgb(177,196,130);
+        }
+        #t2{
+            border-right:  10px solid rgb(209,101,47);
+            
+        }
+        #t22{
+            border-right:  10px solid rgb(91,79,53);
+        }
+        #t3{
+           border-left:  10px solid rgb(91,79,53); 
+        }
+        #t23{
+           border-left:  10px solid rgb(209,101,47);
+        }
+        #l2,#l22{
+            border: 1px solid rgb(209,101,47);
+            background-color: rgb(209,101,47);
+            width: 20px;
+            height: 200px;opacity: 1;
+           }
+           #l22{
+            border: 1px solid rgb(91,79,53);
+            background-color:   rgb(91,79,53);
+           }
+        #l3,#l23{
+            border: 1px solid rgb(91,79,53);
+            background-color: rgb(91,79,53);
+            width: 20px;
+            height: 200px;opacity: 1;
+               }
+               #l23{
+                   border: 1px solid rgb(209,101,47);
+            background-color: rgb(209,101,47);
+               }
+
+       #l4,#l24{
+           border: 1px solid orange;
+           background-color: orange;
+           width: 20px;
+           height: 200px;opacity: 1;
+           
+       }
+       #l5,#l25{
+           border: 1px solid skyblue;
+           background-color: skyblue;
+           width: 20px;
+           height: 200px;
+           opacity: 1;
+       }
+       #l6{
+           border: 1px solid orange;
+           background-color: orange;
+           width: 20px;
+           height: 200px;
+           opacity: 1;
+       }
+       
+       #l1:hover,#l2:hover,#l3:hover,#l4:hover,#l5:hover,#l6:hover{
+           opacity: 1;
+       }
+       h1{
+           font-family: Arial;
+           font-size: 60px;
+           position: relative;
+           text-align: center;
+           margin-top: 100px;
+           margin-left: -10px;
+           color:white;
+       }
+       #day2{
+           position: relative;
+       }
+       h5{
+           position: relative;
+           font-family: Arial;
+           font-size: 13px;
+           color: ivory;
+           text-align: center;
+           top:38px;
+           z-index: 10;
+       }
+      
+       h6
+       {
+           position: absolute;
+           font-family: Arial;
+           font-size: 30px;
+       }
+       #S1,#S21{
+           
+           color: rgb(177,196,130);
+           margin-top:75px ;
+           margin-left:-190px;
+           z-index: 10;
+           
+       }
+       #S2,#S22{
+          
+           color: rgb(209,101,47);
+           margin-top:88px;
+           margin-left:95px;
+           white-space: nowrap;
+       }
+       #S22{
+           color:rgb(91,79,53);
+       }
+       #S3,#S23{
+           color: rgb(91,79,53);
+           margin-top:92px ;
+           margin-left:-190px;
+           z-index: 10;
+       }
+       #S23{
+           color:rgb(209,101,47);
+       }
+       #S4,#S24{
+           color: orange;
+           margin-top:92px;
+           margin-left:95px;
+           white-space: nowrap;
+       }    
+       #S5,#S25{
+           color: skyblue;
+           margin-top:92px;
+           margin-left:-190px;
+           white-space: nowrap;
+       }

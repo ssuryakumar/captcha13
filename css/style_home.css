@@ -1,0 +1,195 @@
+@import url(http://fonts.googleapis.com/css?family=New+Rocker|Squada+One);
+@import url(http://fonts.googleapis.com/css?family=Limelight);
+@import url(http://fonts.googleapis.com/css?family=Grand+Hotel);
+@import url(http://fonts.googleapis.com/css?family=Crushed);
+
+@font-face
+{
+font-family: coda;
+src: url('../fonts/Coda/Coda-Regular.ttf');
+     
+}
+*{
+margin: 0px;
+padding: 0px;
+}
+html{
+/*background: url('../images/background/blue2.jpg');*/
+/*background: -webkit-linear-gradient(#fff,#f00,#000);*/
+background: black;
+overflow-x: hidden;
+
+}
+::-webkit-scrollbar{
+background-color: orangered;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    background-color: black;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px white;
+    background-color: white; 
+}
+body{
+margin: 0 auto;
+display: block;
+width: 1300px;
+min-height: 500px;
+}
+hr{
+box-shadow: 0px 0px 20px black;
+}
+
+.subtitle{
+position: relative;
+top: -100px;
+left: -260px;
+color: white;
+font-style: italic;
+display: inline-block;
+max-width: 1100px;
+text-align: center;
+font-family: "coda" cursive;
+}
+#date{
+    font-style: normal;
+    position: relative;
+    bottom: 40px;
+    left: 400px;
+}
+.top_container{
+	
+	display: block;
+width: 1300px;
+height: 400px;
+background: -webkit-radial-gradient(#0033ff,#000);
+background: -moz-radial-gradient(#0033ff,#000);
+background: -o-radial-gradient(#0033ff,#000);
+box-shadow: 0px -20px 30px black inset;
+
+}
+
+.left_pane{
+display: inline-block;
+float: left;
+width: 700px;
+height: 400px;
+margin: 0px;
+background: transparent;
+z-index: 100;
+}
+.right_pane{
+width: 600px;
+height: 400px;
+background-color:transparent;
+float: left;
+
+}
+#clock{
+position: relative;
+top: 100px;
+left: 20px;
+}
+#captcha_title{
+	position: relative;
+		height: 190px;
+	width: 600px;
+	margin-top: 60px;
+	margin-left: 80px;
+	
+}
+
+.bottom_container{
+height: 200px;
+background: black;
+}
+
+#monster_frame{
+position: relative;
+top: 50px;
+}
+
+/*** middle container *********/
+
+.middle_container{
+height: 300px;
+width: 1200px;
+background: -webkit-radial-gradient(#0033ff 0%,#fff 100%);
+background: -moz-radial-gradient(#0033ff 0%,#fff 100%);
+background: -o-radial-gradient(#0033ff 0%,#fff 100%);
+display: inline-block;
+border: 3px dashed black;
+position: relative;
+left: 40px;
+border-radius: 20px;
+box-shadow: 0px 0px 10px white;
+
+
+}
+.middle_container img{
+box-shadow: 0px 10px 10px greyt;
+}
+
+#middle_box1,#middle_box2,#middle_box3{
+float: left;
+height: 280px;
+width: 410px;
+padding: 10px;
+margin-right: 3.33px;
+}
+#middle_box1{
+	background: orange ;
+}
+#middle_box2{
+	background-color: yellowgreen;
+}
+#middle_box3{
+	background-color: royalblue;
+}
+
+#middle_box1_title,#middle_box2_title,#middle_box3_title{
+text-align: center;
+color: white;
+font-family: 'Grand Hotel', cursive;
+font-size: 45px;
+}
+#middle_box1_para,#middle_box2_para,#middle_box3_para{
+color: white;
+font-size: 30px;
+font-family: 'Crushed', cursive;
+margin-top: 10px;
+}
+
+
+/*footer */
+.footer{
+	color: whitesmoke;
+display: inline-block;
+background: -webkit-radial-gradient(#0033ff,#000);
+background: -moz-radial-gradient(#0033ff,#000);
+background: -o-radial-gradient(#0033ff,#000);
+text-align: center;
+width: 1300px;
+}
+#copyright{
+position: absolute;
+ right: 10px; 
+ bottom: -350px; 
+ font-size: 25px; 
+ font-family: 'coda';
+}
+#coll_name{
+
+
+font-size: 40px;
+font-family: 'coda', cursive;
+}
+#coll_add{
+
+
+
+font-size: 20px;
+font-family: 'coda', cursive;
+}

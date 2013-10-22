@@ -1,0 +1,82 @@
+@font-face
+{
+font-family: coda;
+src: url('../fonts/Coda/Coda-Regular.ttf');
+     
+}
+/***************************************************************************/
+#about_us{
+
+text-shadow: 0px 0px 50px black;
+color: white;
+font-family: 'Coda';
+}
+#about_us:hover{
+color: white;
+-webkit-transition-duration: 1s;
+-moz-transition-duration: 1s;
+-o-transition-duration: 1s;
+-ms-transition-duration: 1s;
+}
+
+/************************************************************************************/
+.page1_container{
+position: absolute;
+top: 14%;
+left: 10%;
+width: 85%;
+height: 80%;
+overflow-y: auto;
+/*background-color: rgba(0,0,0,0.5);*/
+text-shadow: 0px 0px 20px white;
+-webkit-animation: appear 0.8s;
+animation: appear 0.5s;
+-ms-animation: appear 0.5s;
+}
+
+/************************************************************************************/
+.page1_container,.page2_container,.page3_container,.page4_container{
+position: absolute;
+top: 20%;
+left: 10%;
+width: 85%;
+height: 75%;
+overflow-y: auto;
+background-color: transparent;
+}
+.page1_container{
+-webkit-animation: appear 0.8s;
+animation: appear 0.5s;
+-ms-animation: appear 0.5s;
+}
+
+.page2_container{
+	overflow: hidden;
+-webkit-animation: appear2 0.8s;
+animation: appear2 0.5s;
+-ms-animation: appear2 0.5s;
+}
+.page3_container{
+-webkit-animation: appear3 0.8s;
+animation: appear3 0.5s;
+-ms-animation: appear3 0.5s;
+}
+.page4_container{
+	overflow-x: hidden;
+   overflow-y: hidden;
+-webkit-animation: appear4 0.8s;
+animation: appear4 0.5s;
+-ms-animation: appear4 0.5s;
+}
+
+
+.page1_container,.page2_container,.page3_container,.page4_container h1{
+text-align: center;
+}
+
+.page1_container,.page2_container,.page3_container,.page4_container p{
+font-size: 25px;
+
+}
+
+/**********************************************/

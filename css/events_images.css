@@ -1,0 +1,292 @@
+#event_box{
+width: 400px;
+height: 75px;
+margin-bottom: 20px;
+margin-left: 10px;
+border-radius: 20px;
+cursor: pointer;
+background-color: wheat;
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no1{
+background: url('../images/events/codinganddebugging.jpg');
+
+cursor: pointer;
+}
+.no1:hover{
+filter: grayscale(100%) sepia(50%) contrast(100%);
+-webkit-filter: grayscale(100%) sepia(50%) contrast(100%);
+-moz-filter: grayscale(100%) sepia(50%) contrast(100%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+
+.no2{
+background: url('../images/events/webdesigning.jpg');
+}
+
+.no2:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no3{
+background: url('../images/events/splashfundus.jpg');
+}
+
+.no3:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no4{
+background: url('../images/events/paperpresentation.jpg');
+}
+
+.no4:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no5{
+background: url('../images/events/businesstrivia.jpg');
+}
+
+.no5:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no6{
+background: url('../images/events/dumbc.jpg');
+}
+
+.no6:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no7{
+background: url('../images/events/gaming.jpg');
+}
+
+.no7:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no8{
+background: url('../images/events/queryquest.jpg');
+}
+
+.no8:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no9{
+background: url('../images/events/photography.jpg');
+}
+
+.no9:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no10{
+background: url('../images/events/hangingquiz.jpg');
+}
+
+.no10:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no11{
+background: url('../images/events/gaming.jpg');
+}
+
+.no11:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+.no12{
+background: url('../images/events/shortfilm.jpg');
+}
+
+.no12:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+.no13{
+background: url('../images/events/hacking.jpg');
+}
+
+.no13:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no14{
+background: url('../images/events/photoshop.jpg');
+}
+
+.no14:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no15{
+background: url('../images/events/technicalquiz.jpg');
+}
+
+.no15:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no16{
+background: url('../images/events/adzap.jpg');
+}
+
+.no16:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no17{
+background: url('../images/events/mockinterview.jpg');
+}
+
+.no17:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no18{
+background: url('../images/events/googleit.jpg');
+}
+
+.no18:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no19{
+background: url('../images/events/shipwreck.jpg');
+}
+
+.no19:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.no20{
+background: url('../images/events/whoami.jpg');
+}
+
+.no20:hover{
+filter: grayscale(100%) sepia(50%);
+-webkit-filter: grayscale(100%) sepia(50%);
+-moz-filter: grayscale(100%) sepia(50%);
+-o-filter: grayscale(100%) sepia(50%);
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}

@@ -1,0 +1,67 @@
+@keyframes load{
+	0%{
+		right: -500px;
+			
+	}
+	100%{
+		right: 0px;	
+	}
+}
+@-webkit-keyframes load{
+	0%{
+		right: -500px;
+			
+	}
+	100%{
+		right: 0px;	
+	}
+}
+@-moz-keyframes load{
+	0%{
+		right: -500px;
+			
+	}
+	100%{
+		right: 0px;	
+	}
+}
+@-o-keyframes load{
+	0%{
+		right: -500px;
+			
+	}
+	100%{
+		right: 0px;	
+	}
+}
+
+
+
+/********* page unload animations for index page *****************/
+
+@keyframes unload{
+0%{
+	left: 0px;
+}
+100%{
+	left: -1000px;
+}
+}
+
+@-webkit-keyframes unload{
+0%{
+	left: 0px;
+}
+100%{
+	left: -1000px;
+}
+}
+
+@-webkit-keyframes unload{
+0%{
+	left: 0px;
+}
+100%{
+	left: -1000px;
+}
+}

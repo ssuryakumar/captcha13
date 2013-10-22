@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<link href=tlogo.png rel="shortcut icon" type=image/png>
+<title>CAPTCHA</title>
+<link href=css/style_main.css rel=stylesheet type="text/css"/>
+<script type=text/javascript>function validation_form(){var a=document.form1.uname.value;if(a==""){alert("Please enter your name");return false}};</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43841993-1', 'captcha13.in');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<div class=part>
+<img src=images/Logo1.jpg alt=logo id=logo width=800 />
+<div class=cap>
+<img src=images/capt.png alt=captcha id="captcha"/>
+<form action="index1.php" method=post name=form1 onsubmit="return validation_form()">
+<input type=text placeholder="Type your name here" name=uname id=text autocomplete="off"/><br>
+<input type=submit value id=but>
+</form>
+</div>
+</div>
+<div class=lines></div>
+<div class=lines1></div>
+<div class=lines2></div>
+<div class=lines3></div>
+<img src="images/best_viewed.png" alt="Best viewed" height="100" width="350" style="position: absolute; right: 0px; top: 250px;" />
+<a href="http://www.inplanttraining.org/" target="_blank">
+      <img src="images/uniq.jpg" alt="uniq" height="100" width="350" style="position: absolute; left: 20px; top: 270px;" />
+</a>
+</body>
+</html>

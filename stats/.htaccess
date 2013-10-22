@@ -1,0 +1,6 @@
+Options +Indexes
+AuthType Basic
+AuthName "captcha13.in Statistics"
+AuthUserFile /var/chroot/home/content/09/11721409/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html
