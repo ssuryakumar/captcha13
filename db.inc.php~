@@ -1,7 +1,0 @@
-<?php
-define('MYSQL_HOST','suryacaptcha.db.11721409.hostedresource.com');
-define('MYSQL_USER','suryacaptcha');
-define('MYSQL_PASSWORD','Suryakumar#92');
-define('MYSQL_DB','suryacaptcha');
-
-?>
